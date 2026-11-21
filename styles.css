@@ -1,0 +1,110 @@
+/* Riverbend Yoga Studio - Website Design */
+/* General Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFF8F0;
+    color: #3D3531;
+    margin: 0;
+    line-height: 1.6;
+}
+/* Header */
+header {
+    background-color: #E8B4A2;
+    padding: 20px;
+    text-align: center;
+}
+/* Logo */
+header img {
+    max-width: 150px;
+    height: auto;
+}
+/* Navigation */
+nav ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+}
+nav a {
+    color: #4A342E;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+}
+nav a:hover,
+nav a:focus {
+    color: #FFFFFF;
+    background-color: #795548;
+    border-radius: 5px;
+}
+/* Main Content */
+main {
+    max-width: 1000px;
+    margin: auto;
+    padding: 30px;
+}
+/* Headings */
+h1, h2, h3 {
+    color: #795548;
+}
+/* Images */
+main img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+/* Sections */
+section {
+    background-color: #FFFFFF;
+    padding: 20px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+}
+/* Forms */
+form {
+    background-color: #F5E6DF;
+    padding: 20px;
+    border-radius: 10px;
+}
+input, select, textarea {
+    max-width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+button {
+    background-color: #795548;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #5D4037;
+}
+/* Footer */
+footer {
+    background-color: #E8B4A2;
+    text-align: center;
+    padding: 20px;
+}
+/* Mobile Responsive Design */
+@media (max-width: 600px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    main {
+        padding: 15px;
+    }
+    section {
+        padding: 15px;
+    }
+    h1 {
+        font-size: 1.7rem;
+    }
+}
